@@ -1,0 +1,41 @@
+body {
+    font-family: 'Roboco', sans-serif;
+}
+
+.nav { /* fondo */
+    width: 970px;
+    height: 80px;
+    background-color: #333333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    list-style: none;
+}
+
+.btn{
+    background-color: #17a2b8;
+    box-shadow: 3px 6px 3px black;
+    color: white;
+    font-size: 15px;
+}
+
+.nav a{ /* para todos los a*/
+    color: white;
+    text-decoration: none;
+}
+
+.nav-title{
+    margin-left: 15px;
+}
+
+.active{
+    font-weight: bold;  /* definir peso o grueso de la letra */
+}
